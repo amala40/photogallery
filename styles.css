@@ -208,4 +208,41 @@ footer{
 
 }
 
+@media screen and (min-width:1300px){
+    body{
+        max-width: 1300px; 
+     }
+
+     h1{
+     max-width: 1300px;
+     }
+
+     nav{
+        margin-right: 5px;
+     }
+
+     nav ul{
+        justify-items: end;
+     }
+ 
+     main{
+         max-width: 1300px;
+     }
+
+     .gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .gallery h2{
+        grid-column: 1/4;
+    }
+
+    .gallery p{
+        grid-column: 1/4;
+       
+    }
+}
+
 
