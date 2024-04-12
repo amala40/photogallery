@@ -51,7 +51,7 @@ h2 {font-size: 2em;}
 
 body{
     background-color: #000000;
-    max-width: 485px;
+    min-width: 485px;
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -61,6 +61,8 @@ h1{
     color: #007d7b;
     font-weight: bold;
     padding: 0.5rem;
+    margin: auto;
+    max-width: 485px;
 }
 
 nav{
@@ -86,6 +88,8 @@ nav ul{
 main{
     background-color: #fff;
     color:#000000;
+    max-width: 485px;
+    margin: 0 auto;
 }
 
 .about h2{
@@ -109,3 +113,99 @@ main{
     padding: 0.5rem;
     line-height: 1.5rem;
 }
+
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+figure{
+    padding-bottom: 1rem;
+    margin: 0 auto;
+}
+
+.contact h2{
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem 0;
+}
+
+.contact p{
+    padding: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+input{
+	display: block;
+    width: 24rem;
+    height: 2.3rem;
+    margin: 0 auto;
+}
+
+label{
+    display: block;
+    width: 23rem;
+    margin: 0 auto;
+    padding-top: 1.5rem;
+}
+
+.contact, footer{
+    background-color: #000000;
+    color:#fff;
+}
+
+[type="submit"]{
+	background-color: #007d7b;
+    width: 14rem;
+    border-radius: 1rem;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 1rem ; 
+    margin-bottom: 1rem ;
+}
+
+footer{
+    padding: 2rem;
+    text-align: center;
+}
+
+@media screen and (min-width:880px){
+    body{
+       max-width: 880px; 
+    }
+    h1{
+    justify-content: left;
+    max-width: 880px;
+    }
+
+    main{
+        max-width: 880px;
+    }
+    .gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    
+    }
+
+    .gallery h2{
+        grid-column: 1/3;
+    }
+
+    .gallery p{
+        grid-column: 1/3;
+       
+    }
+
+    input{
+        width: 39rem;
+    }
+   
+    label{
+        width: 38rem;
+    }
+
+}
+
+
