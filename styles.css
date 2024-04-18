@@ -222,6 +222,7 @@ label{
 ::placeholder{
     color: #007d7b;
     font-weight: bold;
+    padding-left: 0.25rem;
 }
 
 footer{
