@@ -147,6 +147,14 @@ figure.long{
     height: 650px;
 }
 
+.top-center{
+    position: relative;
+    top: -270px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
 .white{
     color: #fff;
 }
@@ -155,19 +163,12 @@ figure.long{
     color:#000000;
 }
 
-.top-center{
-    position: relative;
-    top: -270px;
-    text-align: center;
-    text-transform: uppercase;
+.long > .bottom-center{
+    bottom: 30px;
 }
 
 .long > .top-center{
     top: -620px;
-}
-
-.long > .bottom-center{
-    bottom: 30px;
 }
 
 .bottom-center{
